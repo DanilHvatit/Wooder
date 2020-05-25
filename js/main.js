@@ -53,7 +53,7 @@ jQuery(document).ready(function ($) {
     var d = $('#video-design');
     var s = $('#video-skills');
     var p = $('#video-products');
-    var p = $('.video__bg');
+    var v = $('.video__bg');
     $('#play-design').click(function () {
         $('#play-design').toggleClass('active');
         d.toggleClass('active');
@@ -74,8 +74,8 @@ jQuery(document).ready(function ($) {
     });
     $('.video__btn').click(function () {
         $('.video__content').toggleClass('active');
-        p.fadeToggle(1000);
-        p.get(0).paused ? p.get(0).play() : p.get(0).pause();
+        v.fadeToggle(1000);
+        v.get(0).paused ? v.get(0).play() : v.get(0).pause();
 
     });
 
