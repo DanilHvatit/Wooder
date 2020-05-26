@@ -228,14 +228,8 @@ body {
   cursor: pointer;
   position: relative;
   z-index: 1100;
-}
-
-.item__btn a {
-  color: #fff;
-  display: inline-block;
-  font-size: 14px;
-  font-weight: 700;
   text-decoration: none;
+  font-weight: 700;
 }
 
 .item__btn::before {
@@ -716,6 +710,8 @@ body {
 .video-circle__play .playBut {
   display: block;
   -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .video-circle__play .playBut svg {
@@ -724,6 +720,8 @@ body {
 
 .video-circle__play .playBut .triangle {
   -webkit-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
   stroke-dasharray: 240;
   stroke-dashoffset: 480;
   stroke: #000;
@@ -737,6 +735,8 @@ body {
   stroke-dasharray: 650;
   stroke-dashoffset: 650;
   -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   opacity: 0.3;
 }
 
