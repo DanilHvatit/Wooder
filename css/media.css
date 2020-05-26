@@ -107,6 +107,10 @@
   .quality__videos-item {
     padding: 0 30px 30px;
   }
+  .furniture h3 {
+    top: -100px;
+    color: rgba(190, 166, 124, 0.35);
+  }
 }
 
 @media (max-width: 768px) {
@@ -244,11 +248,8 @@
   .item__btn {
     padding: 15px 82px 15px 62px;
   }
-  .item__btn::before {
-    content: none;
-  }
-  .item__btn::after {
-    top: auto;
+  .item__btn svg {
+    top: 10px;
   }
   .furniture__wrapper,
   .decor__wrapper,

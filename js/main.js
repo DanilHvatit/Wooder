@@ -73,6 +73,7 @@ jQuery(document).ready(function ($) {
     });
     $('.video__btn').click(function () {
         $('.video__content').toggleClass('active');
+        $('.video__btn').toggleClass('active');
         v.fadeToggle(1000);
         v.get(0).paused ? v.get(0).play() : v.get(0).pause();
 
