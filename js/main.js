@@ -86,7 +86,7 @@ jQuery(document).ready(function ($) {
 
         if ($('.header__menu').hasClass('active')) {
             $('.header__nav-btn,.header__menu').removeClass('active');
-            $('body').removeClass('lock');
+            $('body,html').removeClass('lock');
         }
         return false;
     });
