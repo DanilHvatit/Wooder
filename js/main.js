@@ -84,8 +84,8 @@ jQuery(document).ready(function ($) {
         var offset = 0;
         $('body,html').animate({ scrollTop: $('.' + el).offset().top + offset }, 500, function () { });
 
-        if ($('.menu__body').hasClass('active')) {
-            $('.menu__body,.icon-menu').removeClass('active');
+        if ($('.header__menu').hasClass('active')) {
+            $('.header__nav-btn,.header__menu').removeClass('active');
             $('body').removeClass('lock');
         }
         return false;
